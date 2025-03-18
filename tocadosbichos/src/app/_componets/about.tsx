@@ -3,6 +3,7 @@ import { Check } from "lucide-react";
 import about1Img from "../../../public/about-1.png";
 import about2Img from "../../../public/about-2.png";
 import Image from "next/image";
+import { MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return (
@@ -49,7 +50,25 @@ export function About() {
                         <Check className="text-red-500" />
                         Entrega Gratis na sua residencia
                     </li>
+                    <li className="flex items-center gap-2">
+                      <Check className="text-red-500" />
+                      Melhores preços da Região
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <Check className='text-red-500' />
+                      Qualidade é nossa prioridade
+                    </li>
                  </ul>
+                 <a href="#" className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                  <WhatsappLogo className='w-5 h-5 text-white' />
+                  Contato via WhatsApp
+                 </a>
+
+                 <a href="#" className="bg- text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                  <MapPin className='w-5 h-5 text-white' />
+                  Endereço da Loja
+                 </a>
+
 
         </div>
       </div>
