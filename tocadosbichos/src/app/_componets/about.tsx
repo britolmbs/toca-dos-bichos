@@ -9,7 +9,8 @@ export function About() {
   return (
     <section className="bg-[#FDF6ec] py-16">
 
-      <div className="container mx-auto grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="container px-4 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
         <div className="relative">
           <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
@@ -22,7 +23,7 @@ export function About() {
               className="object-cover hover:scale-110 duration-300"/>
           </div>
 
-          <div className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white">
+          <div className="absolute  w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white">
           <Image
           src={about2Img}
           alt="foto gato"
@@ -41,7 +42,7 @@ export function About() {
                  Sed ultricies arcu metus, ac feugiat ex luctus in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
                   Phasellus consectetur mattis porttitor.
                  Nulla id efficitur turpis. Etiam convallis id tortor congue porttitor. Aliquam erat volutpat.</p>
-                 <ul className="space-y-4">
+                 <ul className="space-y-4 mt-10">
                     <li className="flex items-center gap-2">
                         <Check className="text-red-500" />
                         Aberto desde de 2012
@@ -59,16 +60,19 @@ export function About() {
                       Qualidade é nossa prioridade
                     </li>
                  </ul>
+                 <div className="flex gap-2">
                  <a href="#" className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
                   <WhatsappLogo className='w-5 h-5 text-white' />
                   Contato via WhatsApp
                  </a>
 
-                 <a href="#" className="bg- text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
-                  <MapPin className='w-5 h-5 text-white' />
+                 <a href="#" className="flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                  <MapPin className='w-5 h-5 text-black' />
                   Endereço da Loja
                  </a>
+                 </div>
 
+        </div>
 
         </div>
       </div>
