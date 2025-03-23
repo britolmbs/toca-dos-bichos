@@ -1,14 +1,15 @@
 "use client"
 import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock  } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock, HotelIcon  } from 'lucide-react'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
+import { title } from 'process'
 
 const services =[
     {
       title: "Banho & Tosa",
     description: "Inclue banho com produtos especificos para o tipo de pelagem e pele do animal, corte de unhas, limpeza das orelhas.",
     duration: "1h",
-    price: "$50",
+    price: "R$50",
     icon: <Scissors />,
     linkText: "Olá, vi no site sobre Banho e tosa e gostaria de mais informações." 
     },
@@ -16,9 +17,17 @@ const services =[
         title: "Consulta Veterinária",
         description: "Oferece atendimento clínico básico ou especializado para cuidar da saúde do animal.",
         duration: '2h',
-        price: '$45',
+        price: 'R$45',
         icon: <Syringe />,
         linkText: 'Olá, vi no site sobre Consulta Veterinaria e gostaria de mais informações'
+    },
+    {
+        title: '',
+        description: '',
+        duration: '3h',
+        price: 'R$80',
+        icon: <Hotel />,
+        linkText: 'Olá, vi no site sobre Hotel e gostaria de mais informações'
     },
 ]
 
