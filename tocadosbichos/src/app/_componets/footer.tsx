@@ -38,6 +38,18 @@ export function Footer(){
                     ))}
                 </div>
                 </div>
+                <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'>
+                    <div>
+                        <h3 className='text-2xl font-semibold mb-2'>Toca dos Bichos</h3>
+                        <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação</p>
+                        <a href="#" className='bg-green-500 px-4 py-2 round-md'>
+                            contato via Whatsapp
+                        </a>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </footer>
             </div>
 
         </section>
