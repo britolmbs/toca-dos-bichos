@@ -76,7 +76,7 @@ export function Services() {
                                                 <Clock className='w-4 h-4' />
                                                 <span>{item.duration}</span>
                                             </div>
-                                            <a href="#" className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'>
+                                            <a target='_blank' href={`https://wa.me/552124189687?text=${item.linkText}`} className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'>
                                                 Entrar em Contato
                                                 <WhatsappLogo className='w-5 h-5' />
                                             </a>

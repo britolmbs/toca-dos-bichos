@@ -17,14 +17,14 @@ export function Hero() {
          <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
             <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
                 <div className='space-y-6'>
-                    <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10">
-                        Seu pet merce cuidado, carinho e atenção especial.
+                    <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10" data-aos="fade-down">
+                        Seu pet merece cuidado, carinho e atenção especial.
                     </h1>
-                    <p className="lg:text-lg">
+                    <p className="lg:text-lg" data-aos="fade-right">
                         Oferecemos os melhores serviços para garantir o bem estar e a felicidade do seu pet.
                     </p>
                     
-                        <a href="#" 
+                        <a data-aos="fade-up" data-aos-delay="500" target='_blank' href={`https://wa.me/552124189687?text=Olá vim pelo site e gostaria de mais informações`} 
                         className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2">
                             <WhatsappLogo  className='w-5 h-5'/>
                             Contato via WhatsApp

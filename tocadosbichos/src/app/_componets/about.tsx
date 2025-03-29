@@ -12,7 +12,7 @@ export function About() {
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-        <div className="relative">
+        <div className="relative" data-aos="fade-up-right" data-aos-delay='300'>
           <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
             <Image
               src={about1Img}
@@ -34,7 +34,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-6" data-aos='fade-up-left' data-aos-delay='300'>
             <h2 className="text-4x1 font-bold">Sobre</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur risus. In hac habitasse platea dictumst. 
                 Duis at mollis est. Donec volutpat ornare risus, ut mollis magna feugiat in. Vivamus ac sodales purus.
@@ -66,7 +66,7 @@ export function About() {
                   Contato via WhatsApp
                  </a>
 
-                 <a href="#" className="flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                 <a target="_blank" href="#" className="flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
                   <MapPin className='w-5 h-5 text-black' />
                   Endereço da Loja
                  </a>
