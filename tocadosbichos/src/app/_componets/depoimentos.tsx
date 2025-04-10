@@ -21,7 +21,14 @@ const depoimentos = [
         author: 'Rafael',
         role: 'Tutor do Thor (Bulldog francês)',
         image: tutor1,
+    },
+    {
+        content: 'O serviço de entrega de ração e medicação são otimos! Os profissionais estao sempre cuidadosos e bem qualificados.',
+        author: 'Thais',
+        role: 'Tutor do Nino (Bulldog)',
+        image: tutor2,
     }
+
 ]
 export function Depoimentos (){
     const [emblaRef, emblaApi] = useEmblaCarousel({
