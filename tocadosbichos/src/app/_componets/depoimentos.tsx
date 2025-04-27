@@ -27,19 +27,19 @@ const depoimentos = [
     {
         content: 'O serviço de entrega de ração e medicação são otimos! Os profissionais estao sempre cuidadosos e bem qualificados.',
         author: 'Thais',
-        role: 'Tutor do Nino (Bulldog)',
+        role: 'Tutora do Nino (Bulldog)',
         image: tutor4,
     },
         { content: 'As vitaminas que comprei ajudaram muito na saúde do meu gato. Ele está mais ativo e brincalhão! A equipe sempre me orienta com muito carinho.',
             author: 'Pedro Martins',
-            role: 'Felix (siamês)',
+            role: 'Tutor do Felix (siamês)',
             image: tutor3,
 
         },
         {
             content: 'A nova caminha que comprei para a Bella é um sucesso! Ela não sai de lá e parece tão confortável. O atendimento foi excelente e ajudou na escolha!',
             author: 'Amanda Lima',
-            role: 'Bella (Poodle)',
+            role: 'Tutora da Bella (Poodle)',
             image: tutor5,
 
         },
