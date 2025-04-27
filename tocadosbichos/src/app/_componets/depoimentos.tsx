@@ -2,22 +2,24 @@
 
 import useEmblaCarousel from "embla-carousel-react"
 import tutor1 from "../../../public/tutor1.png";
-import tutor2 from "../../../public/tutor2.png"
+import tutor2 from "../../../public/tutor2.png";
+import tutor3 from "../../../public/tutor3.jpg";
+import tutor4 from "../../../public/tutor4.jpg";
+import tutor5 from "../../../public/tutor5.jpg";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 
 const depoimentos = [
     {
-        content: 'Desde que comecei a levar a Luna para banho e tosa aqui, ela nunca estave tão feliz! O atendimento é impecável, os profissionais são supercuidadosos.',
+        content: 'Desde que comecei a comprar as rações aqui, ela nunca estave tão feliz! O atendimento é impecável, os profissionais são supercuidadosos.',
         author: 'Mariana Souza',
-        duration: '1h',
         role: 'Tutora da Luna (Golden Retriever)',
         image: tutor2,
 
 },
     {
-        content: 'O Serviço de hotel para pets foi uma experiência incrivel! precisei viajar e fiquei tranquilo sabendo que o Thor estava sendo bem cuidado.',
+        content: 'Os produtos de higiene são de ótima qualidade. O banho do meu cachorro agora é muito mais fácil e ele sai cheiroso!',
         author: 'Rafael',
         role: 'Tutor do Thor (Bulldog francês)',
         image: tutor1,
@@ -26,8 +28,21 @@ const depoimentos = [
         content: 'O serviço de entrega de ração e medicação são otimos! Os profissionais estao sempre cuidadosos e bem qualificados.',
         author: 'Thais',
         role: 'Tutor do Nino (Bulldog)',
-        image: tutor2,
-    }
+        image: tutor4,
+    },
+        { content: 'As vitaminas que comprei ajudaram muito na saúde do meu gato. Ele está mais ativo e brincalhão! A equipe sempre me orienta com muito carinho.',
+            author: 'Pedro Martins',
+            role: 'Felix (siamês)',
+            image: tutor3,
+
+        },
+        {
+            content: 'A nova caminha que comprei para a Bella é um sucesso! Ela não sai de lá e parece tão confortável. O atendimento foi excelente e ajudou na escolha!',
+            author: 'Amanda Lima',
+            role: 'Bella (Poodle)',
+            image: tutor5,
+
+        },
 
 ]
 export function Depoimentos (){

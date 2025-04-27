@@ -45,28 +45,25 @@ export function Footer(){
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Toca dos Bichos</h3>
                         <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação</p>
-                        <a href="#" className='bg-green-500 px-4 py-2 rounded-md'>
+                        <a href={`https://wa.me/552124189687?text=Olá vim pelo site e gostaria de mais informações`} target='_blank' className='bg-green-500 px-4 py-2 rounded-md'>
                             contato via Whatsapp
                            
                         </a>
                     </div>
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-                        <p>email: teste@teste.com</p>
-                        <p>tel: (21) 123456789</p>
+                        
+                        <p>tel: (21) 2418-9687</p>
                         <p>Avenida João XXIII 1362, Santa Cruz | RJ</p>
                     </div>
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Rede Sociais</h3>
                         <div className='flex gap-4'>
-                            <a href='#' target='_blanck'>
+                            <a href='https://www.facebook.com/people/Toca-dos-Bichos/100063639217445' target='_blanck'>
                                 <FacebookLogo className='w-8 h-8' />
                             </a>
-                            <a href="#" target='_blanck'>
+                            <a href="https://www.instagram.com/tocadosbichos01" target='_blanck'>
                                 <InstagramLogo className='w-8 h-8' />
-                            </a>
-                            <a href="#" target='_blanck'>
-                                <TwitterLogo className='w-8 h-8' />
                             </a>
                         </div>
                     </div>
